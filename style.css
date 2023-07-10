@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;  
+}
+body{
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#container{
+    width: 500px;
+    margin: 100px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #00000070;
+}
+#title, .but{
+   border: solid 2px #fff; 
+   border-radius: 17px;
+   background-color: #000;
+   color: #fff;
+   background-color: #00000070;
+}
+#add:hover{
+    background-color: #00ff0073;
+}
+#title{
+    width: 340px;
+    height:40px;
+    padding:  0 20px 0 ;
+    color: #fff;
+
+}
+.but{
+    height: 40px;
+    cursor: pointer;
+}
+#add{
+    float: right;
+    width: 100px;
+}
+#title:focus {
+    outline: none;
+}
+.task-box, .task-box-check{
+    border: solid 2px #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 0 0 0;
+    color: #fff;
+}
+.task-box-check{
+    background-color: green;
+}
+.check, .trash{
+    height: 15px;
+    padding: 0 5px 10px; 
+}
+.task-title{
+    width: 400px;
+    padding: 0 10px 10px;
+}
+#no-check{
+    opacity: 0;
+}
+#footer{
+    display: flex;
+}
+#clear{
+    width: fit-content;
+    margin: auto;
+}
+#clear:hover{
+    background-color: #ff000073;
+}
+#limpo{
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: #f0f0f086;
+}
